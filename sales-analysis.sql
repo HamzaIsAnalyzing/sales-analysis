@@ -22,7 +22,7 @@ LIMIT 10;
 SELECT COUNT(*) FROM retail_sales;
 
 
-
+--DATA CLEANING
 
 SELECT * FROM retail_sales
 WHERE
@@ -48,3 +48,12 @@ cogs IS NULL
 OR
 total_sale IS NULL;
 
+DELETE FROM retail_sales
+WHERE
+quantiy IS NULL
+OR
+price_per_unit IS NULL
+OR
+cogs IS NULL
+OR
+total_sale IS NULL;
