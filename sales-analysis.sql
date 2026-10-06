@@ -15,4 +15,10 @@ CREATE TABLE retail_sales
   cogs float,
   total_sale float
 );
+SELECT * FROM retail_sales
+LIMIT 10;
+
+
+SELECT COUNT(*) FROM retail_sales;
+
 
