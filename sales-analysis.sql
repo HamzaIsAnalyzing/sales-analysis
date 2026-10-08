@@ -1,3 +1,5 @@
+--Retail-Sales Analysis using SQL
+
 --Create Table
 
 DROP TABLE IF EXISTS retail_sales;
