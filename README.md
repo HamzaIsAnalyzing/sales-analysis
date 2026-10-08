@@ -382,5 +382,5 @@ The final output is a reusable SQL workflow that can be adapted to larger retail
 ## 8. Conclusion
 
 The sales analysis project provides a practical example of using SQL for retail business intelligence. It highlights data quality checks, key performance metrics, and business questions that help understand customer behavior and sales performance.
-
+I will also add new findings in the future.
 This project can be extended with dashboard tools like Power BI, Tableau, or Excel for visual reporting and decision-making.
